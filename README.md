@@ -20,7 +20,7 @@ cd DSA-patterns
 1. Open IntelliJ IDEA and choose **Open**.
 2. Select the cloned `DSA-patterns` folder.
 3. When prompted, use **JDK 21** as the project SDK.
-4. Browse `src/twopointers/` and open a class.
+4. Browse `src/dsapattern/` and open a class.
 5. Classes with a `main` method can be run with the green **Run** button or **Run > Run 'ClassName'**.
 
 ## Compile and run from the terminal
@@ -28,15 +28,15 @@ cd DSA-patterns
 From the repository root:
 
 ```bash
-javac -d out src/twopointers/*.java
-java -cp out twopointers.BinarySearch
+javac -d out src/dsapattern/*.java
+java -cp out dsapattern.BinarySearch
 ```
 
 Replace `BinarySearch` with any class that defines `public static void main`.
 
 ## How to study the code
 
-- Start in `src/twopointers/` and read one problem at a time.
+- Start in `src/dsapattern/` and read one problem at a time.
 - Compare the method name with the class name to see what each file solves.
 - Run classes that include `main` to see sample input and output.
 - Try changing inputs, then re-run or debug to trace pointer movement and loop conditions.
@@ -47,7 +47,7 @@ Replace `BinarySearch` with any class that defines `public static void main`.
 ```text
 DSA-patterns/
 ├── src/
-│   └── twopointers/   # Two pointers, sliding window, and related problems
+│   └── dsapattern/   # Two pointers, sliding window, and related problems
 ├── .gitignore
 └── README.md
 ```
